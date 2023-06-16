@@ -1,0 +1,14 @@
+Show all of the data in the Products table and Transactions table
+	- SELECT * FROM Products
+	- SELECT * FROM Transactions
+
+Show the trasactions with an Id of 11
+	- SLECT * FROM Transactions WHERE transaction_id = 11
+
+Sort product Id by Descending otder
+	- SELECT * From Products ORDER BY product_id DESC
+	- SELECT * From Transactions ORDER BY product_id DESC
+
+
+Show the products with a type of produce and unit of ounces
+	- SELECT * FROM Products WHERE product_type = "produce" AND units = "oz"
